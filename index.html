@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Generate quote</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<center>
+			<ul>
+				<li><a href="#1">Hero Converter</a></li>
+				<li><a href="#2">Mathematical Operations</a></li>
+				<li><a href="#3">Magic</a></li>
+				<li><a href="#4">Quote Generator</a></li>
+
+			</ul>
+			
+		</center>
+		
+	</header>
+
+
+	<br>
+	<br>
+
+	<div class="partFour" id="4">
+	<h1>Quote Generator</h1>
+	<div class="Qcontainer">
+		<div class="box" id="box">
+			<div id="display"></div>
+			
+		</div>
+		<div class="btn">
+			<button id="button1" onclick="red()"></button>
+			<button id="button2" onclick="blue()"></button>
+			<div>
+				<button id="button3" onclick="green()"></button>
+				<button id="button4" onclick="yellow()"></button>
+			</div>
+		</div>
+		
+	</div>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				
+
+	
+</div>
+
+
+	<div class="partOne" id="1">
+		<h1>HERO CONVERTER</h1>
+
+		<div class="container">
+			<nav>
+				Convert: <input id="in" type="text" name="Convert">
+				<select id="drop">
+					<option value="0">lb to KG</option>
+					<option value="1"> KG to lb</option>
+					
+				</select>
+				<button id="button" onclick="convert()">RESULT</button>
+				<p id="out"></p> 
+			</nav>
+			
+		</div>
+		
+	</div>
+
+	<hr>
+
+	<div class="partTwo" id="2">
+		<h1>Mathematical Operations</h1>
+		
+		<div class="container">
+			<div class="input">
+				Input Series of Number <input id="input" type="integer" onkeyup="myFunction()">
+			</div>
+			<div class="output">
+				<a>Array     : <a id="demo"></a> <br/>
+				Max        : <a id="max"></a> <br/>
+				Min: <a id="min"></a> <br/>
+				Sum: <a id="sum"></a> <br/>
+				Average: <a id="average"></a> <br/>
+				Reverse Order: <a id="reverse"></a>
+			</div>
+		</div>
+		
+	</div>
+	<hr>
+
+
+
+	<div class="partThree" id="3">
+		<h1>Magic!!!</h1>
+		<div class="Mcontainer">
+			<div class="magicBox">
+				<textarea id="Minput"></textarea>
+				
+			</div>
+			<nav>
+				<ul>
+					<button id="" onclick="clearIt()">Clear It</button>
+					<button id="" onclick="capitalize()">Capitalize</button>
+					<button id="" onclick="sort()">Sort</button>
+					<button id="" onclick="reverse()">Reverse</button>
+					<button id="" onclick="stripBlank()">Strip Blank</button>
+					<button id="" onclick="addNumbers()">Add Numbers</button>
+					<button id="" onclick="shuffle()">Shuffle</button>
+				</ul>
+				
+			</nav>
+			
+		</div>
+
+		<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+				<br/>
+		
+	</div>
+<hr>	
+
+
+<div class="footer">
+	<a href="#1"><br/>Page Up</a>
+	
+</div>
+
+<script src="quote.js"></script>
+<script src="heroConverter.js"></script>
+<script src="mathOperation.js"></script>
+<script src="magic.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,277 @@
+body
+{
+	font-family: Impact, Charcoal, sans-serif;
+	background-color: #CBCEEC;
+	min-height: 100vh;
+	text-align: center;
+	padding: 100px;
+}
+h1
+{
+	margin: auto;
+	text-align: center;
+	width: 50%;
+	color: #262626;
+	padding: 3px;
+	border-radius:8px;
+	background-color: #AFEDB4
+}
+h1:hover
+{
+
+}
+h1.active
+{
+
+}
+ul
+{
+	list-style: none;
+	margin-top: 25px;
+}
+ul li
+{
+	display: inline block;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #3F2E21;
+	padding: 5px 20px;
+	border: 1 px solid #4F95EF;
+	transition: 0.5s ease;
+}
+ul li a:hover
+{
+	background-color:#2AE5AA;
+	color: #074431;
+	border-color:transparent;
+	padding: 2px;
+}
+hr
+{
+	display: block;
+	margin-left: 50px;
+	margin-right: 50px;
+	border-style:inset;
+}
+.box
+{
+	border: 5px solid black;
+	width:70%;
+	margin:auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 18px;
+	margin-left: 40px;
+	display: block;
+	float:left;
+	border-radius: 12px;
+}
+.container
+{
+	display: block;
+	float;right;
+	margin-right: 40px;
+	margin-top: 5px;
+}
+.btn
+{
+	display: block;
+	float: right;
+	margin-right: 40px;
+	margin-top:5 px;
+}
+#button1
+{
+	background-color: #660b15;
+	padding:20px 35px;
+	border-radius: 12px;
+
+}
+#button2
+{
+	background-color: #c0d6e4;
+	padding:20px 35px;
+	border-radius: 12px;
+}
+#button3
+{
+	background-color: #1b4530;
+	padding:20px 35px;
+	border-radius: 12px;
+}
+#button4
+{
+	background-color: #cca447;
+	padding:20px 35px;
+	border-radius: 12px;
+}
+.convert
+{
+	display: block;
+	margin:auto;
+	text-align: center;
+	padding: 15px;
+	float: left;
+}
+.dropDown
+{
+	display: block;
+	margin:auto;
+	text-align:center;
+	padding: 15px;
+	float: left;
+}
+.btn2
+{
+	display: block;
+	margin:auto;
+	text-align: center;
+	padding:15px;
+	float: left;
+}
+.answer
+{
+	float: left;
+}
+p
+{
+	display: block;
+	margin:auto;
+	text-align: center;
+	padding:15px;
+}
+.input
+{
+	text-align: center;
+}
+.output
+{
+	text-align: center;
+}
+.Mcontainer
+{
+	margin:auto;
+	color:white;
+	padding:15px;
+	width:75%;
+}
+.Mcontainer nav
+{
+
+}
+.Mcontainer nav button
+{
+	margin:1% 2%;
+	padding: 4px;
+	padding-bottom: 3px;
+	border-width: 3px;
+	border-color: #f2f2f2;
+	font-family: Arial Black;
+	font-size: 12px;
+	border-radius:10px;
+	background-color:white;
+	color: #333;
+}
+.magicBox
+{
+	width: 65%;
+	height: 40%;
+	background-color: white;
+	border-width: 5px;
+}
+#Minput
+{
+	width:150%;
+	height:300px;
+}
+nav
+{
+	margin:auto;
+}
+.partOne
+{
+	margin:50px 50px 50px 50px;
+}
+.partTwo
+{
+	margin:50px 50px 50px 50px;
+}
+.partThree
+{
+	margin:50px 50px 50px 50px;
+}
+.partFour
+{
+	margin:50px 50px 50px 50px;
+}
+#in
+{
+	border-width: 2px;
+	padding:5px;
+	border-width: 3px;
+	border-color:#333;
+	padding-top:6px;
+}
+#drop
+{
+	padding:1px;
+	padding-bottom: 3px;
+	border-width: 3px;
+	border-color: #333;
+	font-family:Arial Black;
+	font-size:15px;
+	border-radius: 12px;
+
+}
+#button
+{
+	padding: 8px 15px 6px 15px;
+	border-radius: 12px;
+	background-color:#333;
+	color:white;
+
+}
+#input
+{
+	border-width: 2px;
+	padding:5px;
+	border-width: 3px;
+	border-color:#333;
+	padding-top:6px;
+	padding-bottom:3px;
+}
+.footer
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:0px;
+	background-color: #333;
+	height:50px;
+	padding:8px;
+	font-size:15px;
+	left:0;
+	right:0;
+	bottom:0;
+	color:white;
+
+
+}
+.footer a
+{
+	color:white;
+	text-decoration: none;
+	font-style: italic;
+}
+>footer a:hover
+{
+	color: #315AE2 ;
+	text-decoration:underline;
+
+}
+.footer a.active
+{
+	color: #928b8b;
+}
